@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: red;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            width: 80%;
+            margin: 50px auto 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .banner-container {
+            position: relative;
+            width: 100%;
+            height: 200px;
+        }
+        .banner {
+            width: 100%;
+            height: 100%;
+        }
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .logo-box {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 150px;
+            height: 100px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .logo-left {
+            left: 20px;
+        }
+        .logo-right {
+            right: 20px;
+        }
+        .nav {
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .nav button {
+            padding: 5px 15px;
+            border: none;
+            background-color: #666;
+            color: white;
+            cursor: pointer;
+        }
+        .nav button:hover {
+            background-color: #888;
+        }
+        .content {
+            padding: 20px;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .blog-box {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .blog-box:hover {
+            transform: translateY(-5px);
+        }
+        .blog-image {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        .blog-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .blog-content {
+            padding: 15px;
+        }
+        .blog-content h3 {
+            margin: 0 0 10px 0;
+        }
+        .blog-content p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <div class="container">
+
+        <!-- This is the logo banner at the top -->
+        <div class="banner-container">
+            <div class="banner">
+                <img src="/api/placeholder/800/200" alt="Banner">
+            </div>
+            <div class="logo-box logo-left">Logo A</div>
+            <div class="logo-box logo-right">Logo L</div>
+        </div>
+         <!-- This is the menu banner -->
+        <div class="nav">
+            <button>Home</button>
+            <button>About</button>
+            <button>Contact</button>
+        </div>
+
+        <!-- This is the main content -->
+        <div class="content">
+
+            <!-- This is the grid -->
+            <div class="blog-grid">
+
+                 <!-- This is the a component -->
+                <a href="page1.html" class="blog-box">
+                    <div class="blog-image">
+                        <img src="/api/placeholder/400/200" alt="Blog 1">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Blog Title 1</h3>
+                        <p>Preview text for blog post 1. This is a brief description of the content.</p>
+                    </div>
+                </a>
+
+                 <!-- This is the another component -->
+                <a href="page2.html" class="blog-box">
+                    <div class="blog-image">
+                        <img src="/api/placeholder/400/200" alt="Blog 2">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Blog Title 2</h3>
+                        <p>Preview text for blog post 2. This is a brief description of the content.</p>
+                    </div>
+                </a>
+
+
+                <a href="page3.html" class="blog-box">
+                    <div class="blog-image">
+                        <img src="/api/placeholder/400/200" alt="Blog 3">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Blog Title 3</h3>
+                        <p>Preview text for blog post 3. This is a brief description of the content.</p>
+                    </div>
+                </a>
+                <a href="page4.html" class="blog-box">
+                    <div class="blog-image">
+                        <img src="/api/placeholder/400/200" alt="Blog 4">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Blog Title 4</h3>
+                        <p>Preview text for blog post 4. This is a brief description of the content.</p>
+                    </div>
+                </a>
+                <a href="page5.html" class="blog-box">
+                    <div class="blog-image">
+                        <img src="/api/placeholder/400/200" alt="Blog 5">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Blog Title 5</h3>
+                        <p>Preview text for blog post 5. This is a brief description of the content.</p>
+                    </div>
+                </a>
+                <a href="page6.html" class="blog-box">
+                    <div class="blog-image">
+                        <img src="/api/placeholder/400/200" alt="Blog 6">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Blog Title 6</h3>
+                        <p>Preview text for blog post 6. This is a brief description of the content.</p>
+                    </div>
+                </a>
+
+                area 1
+
+
+            </div>
+            area 2 <br><br><br>
+
+            So in this space, I can start to make some plans of how to build out this web page.
+
+        <h3>   Notepad </h3>
+        Here's just a copy of what's in my notepad:<br>
+
+        <ul>   
+        <li> Set up the webpage 
+            <ul> 
+                <li>  <u>  Now is the time</u>  </li>
+                <li>   Put link in default description of Ytube vids along with insta handle and eventually any offer for tutoring. Or perhgaps even agency services for brits wanting to work or teach English abroard and those wanting to study at uni in the uk. Not to mention Office Hour </li>
+                <li>   Then send the 250km video to Grant. </li>
+            </ul>
+        </li>
+        </ul>
+
+
+        <h3>   Web page main sub pages </h3>
+
+        <ul>    
+            <li>   Blog 1 </li>
+
+            <li>  Articles / papers 1  </li>
+
+            <li>  Tutoring page  </li>
+
+            <li>  Office hour  </li>
+        </ul>
+
+        <h4>   Tutoring page </h4>
+
+        Free enquiry chat. For now there will not be much on here. Just a visible note encouraging surfers to enquire for tutoring services. It may also be sensible to include my CV and relevant experience. Eventually, I will be able to include testimonials. I could probably get one from Candice if I asked nicely. 
+
+        <h4>   Office Hour (trial in development) </h4>
+        
+        <ul>    
+            <li> rudimentary display of what the idea is about </li>
+            <li> I hope to eventually market a platform like this to XYZ people  </li>
+            <li>  </li>
+            <li>  </li>
+        </ul>
+
+        <ul>    
+            <li> rudimentary display of what the idea is about </li>
+            <li> I hope to eventually market a platform like this to XYZ people  </li>
+           
+        </ul>
+        Do reach out for a quick chat if you feel you may want to work with me on this project. I'm currently open to the prospect of development partners. I could do with help lerning the following skills: 
+        <ul>    
+            <li> Stripe implementation </li>
+            <li> Set up a web platfrom with accounts, passwords and personal pages using the Django web framework.  </li>
+        </ul>
+
+
+
+
+
+
+        <h3>   Habit of decisiveness </h3>
+            It seems to be the case that those who get on in life have a habit of descisiveness. <br>
+            Instead of putting their implementation of ideas off until later --  After some thing which is supposed to happen first -- they just start. Because for them time is money, and good fast implementation is possibly even more money, especially when accounting for compounding of momentum. <br>
+            So I must adopt this approach: <br>
+            Part of me is tempted to put of the work until tomorrow morning, but since I've been up all night on a bender, its now 8:50 am, and so leaving it until the morning is actually equivalent to just starting now. <br> 
+            I'm also supposed to be setting off on the bike for Laos this morning, so a start will be all that is possible. But that's alright, because after this caffination wears off, I'll probably be too tired to make any real progress with the website anyway. 
+
+        </div>
+
+        area 3
+    </div>
+
+    area 4
+</body>
+</html>
